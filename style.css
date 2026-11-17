@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #222222;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 700px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+.theme-btn{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.first input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.first button{
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.filter-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter-btn button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    background-color: purple;
+    color: white;
+    font-weight: 300;
+}
+
+.filter-btn button:hover{
+    background-color: rgb(70, 70, 154);
+    color: red;
+}
+
+.fourth{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+#task-container{
+    list-style: none;
+}
+
+.task-item{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#clear-completed{
+    margin-top: 10px;
+    background: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#clear-completed:hover{
+    background-color: rgb(70, 70, 154);
+    color: navy;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.second{
+    padding: 20px;
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: white;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>My Todo list</h1>
+            <button id="theme-btn" class="theme-btn">Theme</button>
+        </header>
+
+        <main>
+            <section class="first">
+                <input id="input" type="text" placeholder="Enter your task...">
+                <button id="addTask" class="addtask-btn">Add Task</button>
+            </section>
+
+            <section class="second">
+                <div class="task-counter">
+
+                </div>
+            </section>
+
+            <section class="third">
+                <div class="filter-btn">
+                    <button id="all" class="all">All</button>
+                    <button id="pending" class="pending">Pending</button>
+                    <button id="completed" class="completed">Completed</button>          
+                </div>
+            </section>
+
+            <section class="fourth">
+                <ul id="task-container">
+
+                </ul>
+
+                <button id="clear-completed">Clear Completed</button>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
